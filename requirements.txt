@@ -1,0 +1,15 @@
+apscheduler
+bs4
+flask
+flask-socketio
+google-api-python-client==1.7.3
+google-cloud-bigquery==1.3.0
+google-cloud-core==0.28.1
+google-cloud-storage==1.10.0
+mysql-connector==2.1.4
+nltk
+numpy
+oauth2client
+python-dateutil
+requests
+simplejson
