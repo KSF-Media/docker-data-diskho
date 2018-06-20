@@ -9,7 +9,8 @@ RUN echo "deb http://packages.cloud.google.com/apt cloud-sdk-stretch main" | \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
     apt-key add - &&\
     apt-get update && apt-get install -yqq tzdata vim htop wget curl \
-    alien libaio1 libaio-dev screen iproute2 unzip tree google-cloud-sdk
+    alien libaio1 libaio-dev screen iproute2 unzip tree google-cloud-sdk \
+    default-jre default-jdk socat
 
 # Cleanup
 
