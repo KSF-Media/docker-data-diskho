@@ -4,6 +4,8 @@ MAINTAINER Christoffer Holmberg <christoffer.holmberg@ksfmedia.fi>
 
 # Install dependencies
 
+RUN apt-get update && apt-get install -yqq curl
+
 RUN echo "deb http://packages.cloud.google.com/apt cloud-sdk-xenial main" | \
     tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
