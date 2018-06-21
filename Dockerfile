@@ -21,4 +21,4 @@ RUN apt-get -yqq autoremove && apt-get -yqq autoclean
 # Install python packages
 
 COPY requirements.txt /requirements.txt
-RUN pip install -r /requirements.txt
+RUN pip3 install -r /requirements.txt
